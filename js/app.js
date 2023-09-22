@@ -13,6 +13,7 @@ function sum(a, b) {
   let result = [];
   result[0] = a + b;
   result[1] = "The sum of " + a + " and " + b + " is " + result + ".";
+  //console.log(result);
   //use backticks -  let string = 'the sum of $(a) and ' +
   return result;
 }
@@ -36,6 +37,7 @@ function multiply(a, b) {
   let result = [];
   result[0] = a * b;
   result[1] = "The product of " + a + " and " + b + " is " + result + ".";
+  //console.log(result);
   return result;
 }
 

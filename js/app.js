@@ -10,10 +10,11 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) {
   //eslint-disable-line
-  let result = a + b;
+  let result = [];
+  result[0] = a + b;
+  result[1] = "The sum of " + a + " and " + b + " is " + result + ".";
   //use backticks -  let string = 'the sum of $(a) and ' +
-  let message = "The sum of " + a + " and " + b + " is " + result + ".";
-  return [result, message];
+  return result;
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -32,9 +33,10 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) {
   //eslint-disable-line
-  let result = a * b;
-  let message = "The product of " + a + " and " + b + " is " + result + ".";
-  return [result, message];
+  let result = [];
+  result[0] = a * b;
+  result[1] = "The product of " + a + " and " + b + " is " + result + ".";
+  return result;
 }
 
 // Here is the test for multiply(); uncomment it to run it
